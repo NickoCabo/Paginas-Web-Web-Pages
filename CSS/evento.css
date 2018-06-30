@@ -1,0 +1,19 @@
+h1 {
+	text-align: center;
+	font-size: 26px;
+	font-family: sans-serif;
+	color: black;
+}
+
+p {	
+	margin: .5;
+	font-family: sans-serif;
+	text-align: center;
+	color: black;
+}
+
+nav > ul > li > a > span .icon {
+	color: black;
+	line-height: 10px;
+	text-decoration: none;
+}

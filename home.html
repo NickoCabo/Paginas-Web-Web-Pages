@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NIKE NO OFICIAL :)</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<link rel="stylesheet" type="text/css" href="CSS/barra-social.css">
+	<link rel="stylesheet" type="text/css" href="CSS/slide.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>	
+	<body background="Imagenes/nike3.jpg"></body>
+	
+	<div class="social">
+		<ul>
+			<li><a href="https://www.facebook.com/nike/" class = "icon fa fa-facebook-official"></a></li>
+			<li><a href="https://www.instagram.com/nike/?hl=es" class = "icon fa fa-instagram"></a></li>
+			<!--Contáctame si te gustó mi trabajo :)-->
+			<li><a href="mailto: cesar.nicolas.cabo@gmail.com" class = "icon fa fa-at"></a></li>
+		</ul>
+	</div>
+	
+	<header>
+		<nav>
+			<ul>
+				<li><a href="home.html"><span class="home"><i class="icon fa fa-home"></i></span>Home</a></li>
+				<li><a href="#"><span class="eventos"><i class="icon fa fa-arrow-down"></i></span>Eventos</a>
+					<ul>
+						<li><a href="evento.html">Mexico</a></li>
+					</ul>
+				</li>
+				<li><a href="quienes_somos.html"><span class="acerca"><i class="icon fa fa-group"></i></span>Acerca De</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<div class="main">
+		<div class="slides">
+				<img src="Imagenes/zapa1.jpg" alt="">
+				<img src="Imagenes/zapa2.jpg" alt="">
+				<img src="Imagenes/zapa3.jpg" alt="">
+				<img src="Imagenes/zapa4.jpg" alt="">
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+		$(function(){
+  			$(".slides").slidesjs({
+    			play: {
+      				active: false, 
+				    effect: "slide", 
+				    interval: 3000, 
+				    auto: true, 
+				    swap: false, 
+				    pauseOnHover: false, 
+				    restartDelay: 2500
+    			}
+  			});
+		});
+	</script>
+</body>
+</html>
